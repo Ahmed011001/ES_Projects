@@ -87,7 +87,7 @@ static void vidInit(void)
 	    /*Initialize LCD pins direction*/
 	    CLCD_voidInit();
         /*Initialize MODE */
-		MODE_vidInit();
+	    MODE_vidInit();
 
 	
 
