@@ -173,6 +173,7 @@ void MODE_vidHazardBlink (void)
 void MODE_vidInit(void)
 {
 	/* Set Mode to Default (IDLE) */
+	Type = IDLE; 
 	MODE_vidIdle();
 }
 
